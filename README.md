@@ -1,12 +1,15 @@
-# Earley Parser
+# Earley Parser (work in progress)
 
 An implementation of the Earley parser algorithm in TypeScript and in Python (the TypeScript implementation is cleaner).
 
 The toy grammar in the `toygrammar()` / `toyGrammar()` functions is:
 
-Non-terminals: { S, NP, VP, PP, N, V, P }
-Terminals: { can, fish, in, rivers, they, december }
-Start symbol: S
+Non-terminals: `{ S, NP, VP, PP, N, V, P }`
+
+Terminals: `{ can, fish, in, rivers, they, december }`
+
+Start symbol: `S`
+
 Productions:
 ```
 S -> NP | VP
