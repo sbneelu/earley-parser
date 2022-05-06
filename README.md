@@ -1,6 +1,14 @@
 # Earley Parser (work in progress)
 
-An implementation of the Earley parser algorithm in TypeScript and in Python (the TypeScript implementation is cleaner).
+An implementation of the Earley parser algorithm in TypeScript and in Python (the TypeScript implementation is cleaner at the moment).
+
+## Usage
+
+Python: Use the `parse` or `printParseChart` functions from `parser.py` for a generic parser, or run `python3 python/parser.py <sentence to parse>` for the toy grammar.
+
+TypeScript: Use the `parse` or `printParseChart` functions exported from `typescript/parser` for a generic parser, or the `main()` function in `typescript/main.ts` for the toy grammar.
+
+## Toy Grammar
 
 The toy grammar in the `toygrammar()` / `toyGrammar()` functions is:
 
@@ -20,9 +28,3 @@ N -> can | fish | rivers | they | december
 P -> in
 V -> fish | can
 ```
-
-## Usage
-
-Python: Use the `parse` or `printParseChart` functions from `parser.py` for a generic parser, or run `python3 python/parser.py <sentence to parse>` for the toy grammar.
-
-TypeScript: Use the `parse` or `printParseChart` functions exported from `typescript/parser` for a generic parser, or the `main()` function in `typescript/main.ts` for the toy grammar.
