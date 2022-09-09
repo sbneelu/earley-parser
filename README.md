@@ -1,4 +1,4 @@
-# Earley Parser (work in progress)
+# Earley Parser
 
 An implementation of the Earley parser algorithm in TypeScript and in Python (the TypeScript implementation is cleaner at the moment).
 
