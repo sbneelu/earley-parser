@@ -184,6 +184,7 @@ function complete(
 
     while (toPropagate.length > 0) {
         const row = toPropagate.pop();
+        if (row === undefined) break;
         const { rowId, dotProduction, words } = row;
         const [start, end] = words;
         const { lhs: from, beforeDot: to } = dotProduction;
