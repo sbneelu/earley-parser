@@ -166,7 +166,6 @@ function scan(
                 words: [end, end + 1],
                 history: [],
             };
-            console.log("NEW", newRow);
             section.push(newRow);
         }
     }
